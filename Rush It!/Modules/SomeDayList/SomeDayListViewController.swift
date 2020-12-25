@@ -117,7 +117,8 @@ final class SomeDayListViewController: UIViewController {
 private extension SomeDayListViewController {
 	func prepareNavigationController() {
 		navigationItem.title = displayingDate
-		// navigationController?.navigationBar.prefersLargeTitles = true
+		addButton.tintColor = .systemRed
+		menuBarButtonItem.tintColor = .systemRed
 		navigationItem.rightBarButtonItem = addButton
 		navigationItem.leftBarButtonItem = menuBarButtonItem
 	}

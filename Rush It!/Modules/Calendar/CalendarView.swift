@@ -40,12 +40,15 @@ final class CalendarView: UIView {
 
 private extension CalendarView {
 	func setupAppearance() {
-		backgroundColor = .white
+		backgroundColor = .systemFill
 		calendar.scrollDirection = .vertical
 		calendar.scope = .month
 		calendar.appearance.titleFont = .systemFont(ofSize: Constants.textSize.rawValue)
 		calendar.appearance.headerTitleFont = .boldSystemFont(ofSize: Constants.headerSize.rawValue)
-		// calendar.a
+		calendar.appearance.headerTitleColor = .white
+		calendar.appearance.weekdayTextColor = .white
+		calendar.appearance.titleDefaultColor = .white
+		calendar.appearance.eventDefaultColor = .systemRed
 	}
 }
 

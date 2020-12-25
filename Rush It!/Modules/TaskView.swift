@@ -128,7 +128,7 @@ private extension TaskView {
 
 private extension TaskView {
 	func setupAllAppearances() {
-		backgroundColor = .white
+		backgroundColor = .systemBackground
 		setupLabelAppearances()
 		setupFieldAppearances()
 		setupIconAppearance()

@@ -99,7 +99,7 @@ final class SomeDayListView: UIView {
 
 private extension SomeDayListView {
 	func configureMenuView(_ view: UIView) {
-		view.backgroundColor = Color.brightTurquoiseColor
+		view.backgroundColor = Color.halfAlphaDarkTurquoiseColor
 		setupMenuButtonAppearances()
 		setupMenuButtonLayouts(view)
 	}

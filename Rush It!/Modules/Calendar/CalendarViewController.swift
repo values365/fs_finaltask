@@ -49,6 +49,7 @@ final class CalendarViewController: UIViewController {
 
 	override func loadView() {
 		view = calendarView
+		navigationController?.navigationBar.backgroundColor = .systemFill
 	}
 }
 
